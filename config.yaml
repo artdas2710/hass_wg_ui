@@ -1,0 +1,16 @@
+name: "WireGuard UI"
+description: "WireGuard UI for VPN Server"
+version: "2.0.0"
+slug: "wireguard"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+ingress: true
+panels:
+    name: "WireGuard VPN"
+    icon: mdi:vpn
+    url: "http://localhost:51821"
